@@ -173,7 +173,7 @@ function generateGourmetMessageByPrefecture(prefecture, responseHelper) {
         );
         speechList.push(
             clova.SpeechBuilder.createSpeechText(
-                '詳しく知りたいご当地グルメがあればお調べしますので、ご当地グルメ名をお知らせください。'
+                '詳しく知りたいご当地グルメがあればお調べしますので、ご当地グルメの名前をお知らせください。'
             )
         );
         let gourmetNames = '';
@@ -213,7 +213,7 @@ function generateGourmetMessageByName(gourmetName, responseHelper) {
         }
         speechList.push(
             clova.SpeechBuilder.createSpeechText(
-                `${gourmet["yomi"]} は、${gourmet["prefecture"]}のご当地グルメです。${gourmetDetail}`
+                `${gourmet["yomi"]} わ、${gourmet["prefecture"]}のご当地グルメです。${gourmetDetail}`
             )
         );
         responseHelper.endSession();
