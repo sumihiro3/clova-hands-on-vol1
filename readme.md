@@ -149,7 +149,3 @@ $ node index.js
 
 * [Facebook page](https://www.facebook.com/groups/LINEDeveloperGroupKansai/)
 * [Connpass page](https://ldgk.connpass.com/)
-
-
-
-
