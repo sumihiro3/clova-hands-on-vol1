@@ -35,7 +35,7 @@ $ cd clova-hands-on-vol1
 $ npm install
 ```
 
-# ご当地グルメファインダーの開発
+# ご当地グルメファインダーの開発
 
 ## ngrok インストール＆起動
 
