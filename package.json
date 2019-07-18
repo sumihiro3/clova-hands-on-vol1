@@ -1,0 +1,16 @@
+{
+  "name": "clova-hands-on-vol1",
+  "version": "1.0.0",
+  "description": "Clova hands-on sample app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sumihiro Kagawa",
+  "private": true,
+  "dependencies": {
+    "@line/clova-cek-sdk-nodejs": "^1.2.1",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1"
+  }
+}
